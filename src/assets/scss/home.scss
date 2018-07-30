@@ -1,0 +1,138 @@
+.content_cencent {
+    width: 1080px;
+    margin: 25px auto 0;
+    border: 1px solid #DEE1E6;
+    box-shadow: 0 1px 8px 0 rgba(46, 59, 79, 0.10);
+    background: #FFFFFF;
+    height: 730px;
+    padding: 0;
+    .content_left {
+        padding: 30px 30px 50px 60px;
+        border-right: 1px dashed #DFE1E7;
+        h5 {
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: normal;
+            color: #333333;
+        }
+        .news {
+            .news-title {
+                border-bottom: 1px solid #E8EBEF;
+                line-height: 46px;
+                text-decoration: none;
+                display: flex;
+                justify-content: space-between;
+                h3 {
+                    font-size: 12px;
+                    color: #888888;
+                    font-weight: 500;
+                }
+                .moreMsg {
+                    display: block;
+                    font-size: 12px;
+                    color: #4597E0;
+                    cursor: pointer;
+                }
+            }
+            ul {
+                li {
+                    display: flex;
+                    border-bottom: 1px solid #E8EBEF;
+                    line-height: 46px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    p {
+                        flex: 1;
+                        font-size: 14px;
+                        color: #333333;
+                    }
+                    i {
+                        color: #D9DEE2;
+                    }
+                }
+            }
+        }
+        .application {
+            h3 {
+                font-size: 12px;
+                color: #888888;
+                margin-top: 50px;
+                margin-bottom: 0px;
+                font-weight: 500;
+            }
+            .commonlyused {
+                margin-top: 10px;
+                height: 320px;
+                overflow: auto;
+                &::-webkit-scrollbar {
+                    width: 6px;
+                    background-color: #F5F5F5;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background-color: #999;
+                    -webkit-border-radius: 4px;
+                    border-radius: 4px;
+                }
+                li {
+                    float: left;
+                    width: 210px;
+                    padding: 15px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                    background: #F7F9FB;
+                    img {
+                        float: left;
+                        width: 60px !important;
+                        height: 60px !important;
+                        margin-right: 10px;
+                    }
+                    p {
+                        line-height: 60px;
+                        color: #3c3c3c;
+                    }
+                    &:nth-child(3n) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .content_right {
+        .content_cenent_con {
+            text-align: center;
+            .content_cenent_con_a {
+                width: 150px;
+                display: inline-block;
+                border-bottom: 1px solid #E8EBEE;
+                padding: 60px 0px 30px 0px;
+                margin-bottom: 15px;
+                text-decoration: none;
+                .img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin-bottom: 10px;
+                    background-size: cover;
+                    background-position: center center;
+                    margin: 0 auto 10px;
+                }
+                p {
+                    font-size: 18px;
+                    color: #333333;
+                }
+            }
+            dl {
+                padding: 10px 0px 10px 0px;
+                dd {
+                    font-size: 18px;
+                    color: #333333;
+                    &:nth-child(2n) {
+                        font-size: 14px;
+                        color: #888888;
+                    }
+                }
+            }
+        }
+    }
+}

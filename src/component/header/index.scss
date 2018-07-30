@@ -1,0 +1,26 @@
+.thehead{
+    width: 100%;
+    height: 36px;
+    background: #4597E0;
+    font-size: 14px;
+    .thehead_top{
+        width: 1080px;
+        margin: 0 auto;
+        display: flex;
+        .text_left{
+            flex: 1;
+            line-height: 36px;
+            color: #fff;
+        }
+        .text_right{
+            line-height: 36px;
+            a{
+                position: relative;
+                text-decoration: none;
+                color: #fff;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}

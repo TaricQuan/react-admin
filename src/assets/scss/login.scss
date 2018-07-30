@@ -1,0 +1,85 @@
+.login-container{
+    position: absolute;
+    background: url('../images/bj.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    .logo{
+        position: fixed;
+        top: 50px;
+        left: 100px;
+        width: 184px;
+        height: 46px;
+        background: url('../images/logo.png') no-repeat;
+        background-size: contain;
+    }
+    .login-form{
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #fff;
+        padding-top: 36px;
+        border-radius: 2px;
+        box-shadow: 0 16px 45px 0 rgba(17, 108, 190, 0.5);
+        .title-container{
+            .title{
+                font-size: 30px;
+                color: #4597E0;
+                font-weight: bold;
+                padding-bottom: 30px;
+                display: block;
+                text-align: center;
+            }
+        }
+        .el-form-item{
+            width: 400px;
+            margin: 0 auto 12px;
+            .el-input{
+                display: block;
+                line-height: 44px;
+                font-size: 15px;
+                color: #C1C1C1;
+                border: 1px solid #DEDFE0;
+                padding: 0 20px 0 15px;
+                box-sizing: border-box;
+                input{
+                    border: none;
+                    padding: 0;
+                    outline: none;
+                }
+            }
+            .code{
+                width: 285px;
+                float: left;
+            }
+            .code-prompt{
+                position: absolute;
+                right: 150px;
+                top: 3px;
+                color: #FE4444;
+                display: none;
+            }
+            .verifyImg{
+                width: 104px;
+                height: 44px;
+                margin-left: 10px;
+                vertical-align: middle;
+                display: block;
+                float: left;
+                cursor: pointer;
+            }
+        }
+        .el-button{
+            width: 400px;
+            line-height: 46px;
+            margin: 0 auto;
+            display: block;
+            box-sizing: border-box;
+            padding: 0;
+        }
+    }
+}
